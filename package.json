@@ -1,0 +1,22 @@
+{
+  "name": "talk",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "51.7.1",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "@vueuse/integrations": "^13.2.0",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.2.4",
+    "@iconify-json/mdi": "^1.2.3",
+    "@iconify-json/noto": "^1.2.3",
+    "playwright-chromium": "^1.52.0"
+  }
+}
